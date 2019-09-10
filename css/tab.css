@@ -1,0 +1,35 @@
+div#tabs
+{
+    background: #FCFCFC;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+div#tabs ul#ultabs 
+{
+	list-style:none;
+}
+div#tabs ul#ultabs li
+{
+    float: left;
+    color: #000;
+    background: #fff;
+    padding: 8px 20px;
+    margin-right: 10px;
+    cursor: pointer;
+    border: 1px solid #EEEEEE;
+    border-bottom: none;
+    font-size: 15px;
+    font-family: 'roboto-l';
+}
+div#tabs ul#ultabs li.active
+{
+    background: #ee6f00;
+    color: #fff;
+}
+div#content_tabs
+{
+	border-top:none;
+	padding:10px 0;
+	background:#fff;
+}
